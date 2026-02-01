@@ -1,0 +1,748 @@
+{
+  "personas": [
+    "Vizyoner Yaratıcı",
+    "Doğal Aktivist",
+    "İyilik Elçisi",
+    "Neşe Kaynağı",
+    "Deneysever",
+    "Koruyucu",
+    "Rehber",
+    "Düzenperest",
+    "Araştırmacı",
+    "Ticari Zeka",
+    "Sorunçözer",
+    "Taktisyen"
+  ],
+  "modules": {
+    "skills": {
+      "title": "Beceriler Testi",
+      "description": "Aşağıdaki maddelerde belirtilen işleri, şu anki bilgi birikimin ve kapasitenle ne kadar iyi yapabildiğini değerlendirmeni bekliyoruz. En doğru sonucu almak için lütfen gerçek potansiyelini yansıtan objektif puanlar ver.",
+      "instruction": "Aşağıdaki konularda kendinizi ne kadar yetkin (becerikli) görüyorsunuz? (1: Hiç Beceremem ... 5: Çok Başarılıyım)",
+      "questions": [
+        {
+          "id": "skills_1",
+          "text": "Teknik arıza/kök neden analizi yapıp çözüm yolunu çıkarabilirim.",
+          "weights": {
+            "Sorunçözer": 2,
+            "Deneysever": 1,
+            "Vizyoner Yaratıcı": 1
+          }
+        },
+        {
+          "id": "skills_2",
+          "text": "Kodlama, teknik çizim ya da mühendislik hesaplaması gibi teknik araçlarla üretim yapabilirim.",
+          "weights": {
+            "Sorunçözer": 2,
+            "Vizyoner Yaratıcı": 1
+          }
+        },
+        {
+          "id": "skills_3",
+          "text": "Laboratuvarda/atölyede prosedüre uygun şekilde hassas ölçüm yapıp veri toplayabilirim.",
+          "weights": {
+            "Deneysever": 2,
+            "İyilik Elçisi": 1
+          }
+        },
+        {
+          "id": "skills_4",
+          "text": "Veri setlerini analiz edip anlamlı bulgular ve çıkarımlar üretebilirim.",
+          "weights": {
+            "Araştırmacı": 2,
+            "Deneysever": 1
+          }
+        },
+        {
+          "id": "skills_5",
+          "text": "Soyut bir fikri çizim, görsel veya 3D modelle somut bir tasarıma dönüştürebilirim.",
+          "weights": {
+            "Vizyoner Yaratıcı": 2,
+            "Sorunçözer": 1
+          }
+        },
+        {
+          "id": "skills_6",
+          "text": "Klasik yollar tıkandığında, uygulanabilir yaratıcı çözümler geliştirebilirim.",
+          "weights": {
+            "Vizyoner Yaratıcı": 2,
+            "Sorunçözer": 1,
+            "Neşe Kaynağı": 1
+          }
+        },
+        {
+          "id": "skills_7",
+          "text": "Canlıların ve ekosistemlerin işleyişini anlayıp saha gözlemi yapabilirim.",
+          "weights": {
+            "Doğal Aktivist": 2,
+            "Deneysever": 1
+          }
+        },
+        {
+          "id": "skills_8",
+          "text": "Açık hava ve saha koşullarında düzenli, fiziksel efor gerektiren işleri sürdürebilirim.",
+          "weights": {
+            "Doğal Aktivist": 2,
+            "Koruyucu": 1
+          }
+        },
+        {
+          "id": "skills_9",
+          "text": "Acil durumlarda hızlı ve kontrollü şekilde fiziksel müdahale/ilk yardım refleksi gösterebilirim.",
+          "weights": {
+            "Koruyucu": 2,
+            "İyilik Elçisi": 1
+          }
+        },
+        {
+          "id": "skills_10",
+          "text": "Baskı ve stres altında sakin kalıp doğru kararı verebilirim.",
+          "weights": {
+            "Koruyucu": 2,
+            "Düzenperest": 1
+          }
+        },
+        {
+          "id": "skills_11",
+          "text": "Karşımdaki kişiyi ikna edip müzakereyle uzlaşma sağlayabilirim.",
+          "weights": {
+            "Ticari Zeka": 2
+          }
+        },
+        {
+          "id": "skills_12",
+          "text": "Bir ürünü, hizmeti veya fikri hedef kitleye uygun şekilde tanıtıp talep oluşturabilirim.",
+          "weights": {
+            "Ticari Zeka": 2,
+            "Neşe Kaynağı": 1
+          }
+        },
+        {
+          "id": "skills_13",
+          "text": "Topluluk önünde net ve etkileyici sunum yapabilirim.",
+          "weights": {
+            "Neşe Kaynağı": 2,
+            "Rehber": 1
+          }
+        },
+        {
+          "id": "skills_14",
+          "text": "Farklı insan profillerine hızlı uyum sağlayıp iletişimi kriz/şikayet anında da sürdürebilirim.",
+          "weights": {
+            "Neşe Kaynağı": 2,
+            "Ticari Zeka": 1,
+            "Koruyucu": 1
+          }
+        },
+        {
+          "id": "skills_15",
+          "text": "Karmaşık bir konuyu, karşımdakinin seviyesine indirip öğretilebilir hale getirebilirim.",
+          "weights": {
+            "Rehber": 2,
+            "Araştırmacı": 1
+          }
+        },
+        {
+          "id": "skills_16",
+          "text": "Bir ekibi ya da bireyi motive edip gelişim hedeflerine ilerletmek için yönlendirebilirim.",
+          "weights": {
+            "Rehber": 2
+          }
+        },
+        {
+          "id": "skills_17",
+          "text": "İnsanların ihtiyacını doğru analiz edip uygun destek ve yönlendirmeyi sunabilirim.",
+          "weights": {
+            "İyilik Elçisi": 2,
+            "Rehber": 1
+          }
+        },
+        {
+          "id": "skills_18",
+          "text": "Zorlayıcı/krizli durumda sabır ve empatiyle güven ilişkisi kurabilirim.",
+          "weights": {
+            "İyilik Elçisi": 2,
+            "Rehber": 1
+          }
+        },
+        {
+          "id": "skills_19",
+          "text": "Karmaşık işleri takvim, bütçe ve kaynak kısıtlarıyla planlayıp yürütülmesini takip edebilirim.",
+          "weights": {
+            "Düzenperest": 2,
+            "Doğal Aktivist": 1
+          }
+        },
+        {
+          "id": "skills_20",
+          "text": "Bir süreçte verimsiz noktaları bulup daha hızlı ve düzenli hale getirecek iyileştirme yapabilirim.",
+          "weights": {
+            "Düzenperest": 2,
+            "Sorunçözer": 1,
+            "Doğal Aktivist": 1
+          }
+        },
+        {
+          "id": "skills_21",
+          "text": "Bütçe/mali tablo gibi sayısal verilerle çalışıp finansal riskleri değerlendirebilirim.",
+          "weights": {
+            "Taktisyen": 2,
+            "Ticari Zeka": 1,
+            "Düzenperest": 1
+          }
+        },
+        {
+          "id": "skills_22",
+          "text": "Kural, sözleşme, politika ve yönetmelik gibi iş dokümanlarını okuyup mantıklı gerekçeyle karar/strateji üretebilirim.",
+          "weights": {
+            "Taktisyen": 2,
+            "Düzenperest": 1,
+            "Koruyucu": 1
+          }
+        },
+        {
+          "id": "skills_23",
+          "text": "Dağınık kaynaklardan bilgi toplayıp tutarlı bir rapora/sunuma dönüştürebilirim.",
+          "weights": {
+            "Araştırmacı": 2,
+            "Taktisyen": 1,
+            "Doğal Aktivist": 1
+          }
+        },
+        {
+          "id": "skills_24",
+          "text": "Düşüncelerimi yazılı olarak net, akıcı ve profesyonel bir dille ifade edebilirim (rapor, e-posta, teknik metin).",
+          "weights": {
+            "Araştırmacı": 2,
+            "Taktisyen": 1,
+            "Deneysever": 1
+          }
+        }
+      ]
+    },
+    "interests": {
+      "title": "İlgiler Testi",
+      "description": "Şimdi senin için en keyifli aktiviteleri belirleyerek gerçek tutkularını ortaya çıkaracağız. Bu bölümde karşına çıkacak her grupta 4 farklı aktivite göreceksin; bunları 'en çok yapmak istediğinden' 'en az istediğine' doğru sıralaman gerekiyor. Bu zorunlu sıralama yöntemi, senin için gerçekten neyin öncelikli olduğunu netleştirmemizi sağlayacak.",
+      "blocks": [
+        {
+          "id": "block_1",
+          "title": "BLOK 1",
+          "options": [
+            {
+              "text": "Bir ürün, mekan veya dijital arayüz için sıfırdan estetik ve özgün tasarım fikirleri üretmek ve görselleştirmek.",
+              "persona": "Vizyoner Yaratıcı"
+            },
+            {
+              "text": "İnsanların fiziksel şikayetlerini dinleyip, uygun destek ve yönlendirmeyle iyileşme süreçlerine katkı sunmak.",
+              "persona": "İyilik Elçisi"
+            },
+            {
+              "text": "Bir konu hakkında derinlemesine okumak, kaynak taramak ve sistemli notlar çıkararak bilgi biriktirmek.",
+              "persona": "Araştırmacı"
+            },
+            {
+              "text": "Bir ürün, hizmet veya fikri karşı tarafa ikna edici biçimde anlatıp anlaşmaya yaklaştırmak (satış/müzakere).",
+              "persona": "Ticari Zeka"
+            }
+          ]
+        },
+        {
+          "id": "block_2",
+          "title": "BLOK 2",
+          "options": [
+            {
+              "text": "Açık havada, toprakla ve üretim süreçleriyle (tarım, peyzaj, saha) uğraşmak.",
+              "persona": "Doğal Aktivist"
+            },
+            {
+              "text": "Bir topluluk önünde sahne almak veya performans içeren sunumlar yapmak (konuşma, gösteri, anlatım).",
+              "persona": "Neşe Kaynağı"
+            },
+            {
+              "text": "Laboratuvar veya kontrollü ortamda test cihazlarıyla ölçüm yapıp sonuçları kaydetmek.",
+              "persona": "Deneysever"
+            },
+            {
+              "text": "Riskli veya acil durumlarda hızlı hareket ederek insanları ve çevreyi korumaya yönelik görev almak.",
+              "persona": "Koruyucu"
+            }
+          ]
+        },
+        {
+          "id": "block_3",
+          "title": "BLOK 3",
+          "options": [
+            {
+              "text": "Bozuk bir cihazın/sistemin nasıl çalıştığını çözüp arızayı gidererek yeniden çalışır hale getirmek.",
+              "persona": "Sorunçözer"
+            },
+            {
+              "text": "Birine yeni bir bilgi veya beceri öğretmek ve gelişimini takip etmek.",
+              "persona": "Rehber"
+            },
+            {
+              "text": "Bütçe, mali tablo veya yatırım verilerini inceleyip risk ve getiriyi hesaplamak.",
+              "persona": "Taktisyen"
+            },
+            {
+              "text": "Takvim, randevu, görev ve kaynakları düzenleyip aksaksız ilerlemesini sağlamak.",
+              "persona": "Düzenperest"
+            }
+          ]
+        },
+        {
+          "id": "block_4",
+          "title": "BLOK 4 ",
+          "options": [
+            {
+              "text": "Doğayı korumaya veya kirliliği azaltmaya dönük somut proje fikirleri geliştirmek ve uygulamaya katkı vermek.",
+              "persona": "Doğal Aktivist"
+            },
+            {
+              "text": "Zor zamanlar geçiren birine destek olmak, dinlemek ve güçlenmesine yardımcı olmak.",
+              "persona": "İyilik Elçisi"
+            },
+            {
+              "text": "Büyük veri setlerinde eğilimleri/örüntüleri bulmak ve anlamlandırmak.",
+              "persona": "Araştırmacı"
+            },
+            {
+              "text": "Pazar fırsatlarını fark edip yeni bir ticari girişim fikrini hayata geçirmeye çalışmak.",
+              "persona": "Ticari Zeka"
+            }
+          ]
+        },
+        {
+          "id": "block_5",
+          "title": "BLOK 5",
+          "options": [
+            {
+              "text": "Yaratıcı bir projede renk, desen, stil ve malzeme gibi estetik kararlar vermek.",
+              "persona": "Vizyoner Yaratıcı"
+            },
+            {
+              "text": "İnsanların iyi vakit geçirmesini sağlayan etkinlikler tasarlamak ve organize etmek.",
+              "persona": "Neşe Kaynağı"
+            },
+            {
+              "text": "Deney tasarlayıp uygulayarak hipotezleri test etmek ve sonuçları yorumlamak.",
+              "persona": "Deneysever"
+            },
+            {
+              "text": "Güvenlik kurallarının uygulanmasını kontrol etmek ve sahada disiplinli yürütülmesini sağlamak.",
+              "persona": "Koruyucu"
+            }
+          ]
+        },
+        {
+          "id": "block_6",
+          "title": "BLOK 6",
+          "options": [
+            {
+              "text": "Kod yazarak veya teknik yazılımlar geliştirerek sorun çözmek ve çalışır bir sistem üretmek.",
+              "persona": "Sorunçözer"
+            },
+            {
+              "text": "İnsanların kariyer veya eğitim hedeflerine ulaşmaları için yol göstermek ve plan yapmalarına destek olmak.",
+              "persona": "Rehber"
+            },
+            {
+              "text": "Kural, mevzuat veya sözleşmeleri inceleyip stratejik bir yol haritası oluşturmak.",
+              "persona": "Taktisyen"
+            },
+            {
+              "text": "Bir işin planlandığı gibi, eksiksiz ve zamanında yapılıp yapılmadığını düzenli takip etmek.",
+              "persona": "Düzenperest"
+            }
+          ]
+        },
+        {
+          "id": "block_7",
+          "title": "BLOK 7",
+          "options": [
+            {
+              "text": "Yeni teknoloji fikirleri kurgulayıp bir ürünün prototipini tasarlamak ve geliştirme adımlarını düşünmek.",
+              "persona": "Vizyoner Yaratıcı"
+            },
+            {
+              "text": "Yaşlılar, hastalar veya dezavantajlı gruplarla ilgilenmek; bakım ve destek süreçlerine katkı sunmak.",
+              "persona": "İyilik Elçisi"
+            },
+            {
+              "text": "Toplumsal veya ekonomik sorunları anlamak için araştırma yürütmek ve bulguları yorumlamak.",
+              "persona": "Araştırmacı"
+            },
+            {
+              "text": "Bir markanın/ürünün tanıtımı için pazarlama kampanyası fikri geliştirmek ve kurgulamak.",
+              "persona": "Ticari Zeka"
+            }
+          ]
+        },
+        {
+          "id": "block_8",
+          "title": "BLOK 8",
+          "options": [
+            {
+              "text": "Hayvan bakımıyla ilgilenmek veya ekosistemleri gözlemleyip anlamaya çalışmak.",
+              "persona": "Doğal Aktivist"
+            },
+            {
+              "text": "Sürekli yeni insanlarla tanışılan, sosyal etkileşimi yüksek ortamlarda bulunmak.",
+              "persona": "Neşe Kaynağı"
+            },
+            {
+              "text": "Bir numuneyi (kan, toprak, madde) dikkatle incelemek, detayları yakalayıp kaydetmek.",
+              "persona": "Deneysever"
+            },
+            {
+              "text": "Kriz anlarında (yangın, kaza, afet) operasyonu ve ekibi koordine etmek.",
+              "persona": "Koruyucu"
+            }
+          ]
+        },
+        {
+          "id": "block_9",
+          "title": "BLOK 9",
+          "options": [
+            {
+              "text": "Teknik çizim, hesap ve planlamayla mühendislik projelerinde çözüm üretmek.",
+              "persona": "Sorunçözer"
+            },
+            {
+              "text": "Bir topluluğa seminer/eğitim/atölye hazırlamak ve uygulamak.",
+              "persona": "Rehber"
+            },
+            {
+              "text": "Bir kurumun kurallara uyumunu denetlemek ve risk/açıkları tespit etmek.",
+              "persona": "Taktisyen"
+            },
+            {
+              "text": "Nakliye, depo ve tedarik gibi lojistik süreçleri koordine etmek.",
+              "persona": "Düzenperest"
+            }
+          ]
+        },
+        {
+          "id": "block_10",
+          "title": "BLOK 10",
+          "options": [
+            {
+              "text": "Var olan bir şeyi daha kullanışlı ve estetik hale getirmek için dönüştürmek (renovasyon/iyileştirme).",
+              "persona": "Vizyoner Yaratıcı"
+            },
+            {
+              "text": "İnsanların yaşam kalitesini artıracak sosyal sorumluluk çalışmalarında aktif rol almak.",
+              "persona": "İyilik Elçisi"
+            },
+            {
+              "text": "Karmaşık bilgileri analiz edip açık ve anlaşılır raporlara dönüştürmek.",
+              "persona": "Araştırmacı"
+            },
+            {
+              "text": "Rekabetçi ortamda hedef tutturmak, pazarlık yapmak ve anlaşma sonuçları almak.",
+              "persona": "Ticari Zeka"
+            }
+          ]
+        },
+        {
+          "id": "block_11",
+          "title": "BLOK 11",
+          "options": [
+            {
+              "text": "Su, orman, enerji gibi doğal kaynakların sürdürülebilirliği üzerine çalışmak.",
+              "persona": "Doğal Aktivist"
+            },
+            {
+              "text": "Yaratıcı içerikler üretip bir izleyici kitlesiyle etkileşim kurmak (video, yayın, performans).",
+              "persona": "Neşe Kaynağı"
+            },
+            {
+              "text": "Kimyasal/biyolojik süreçleri gözlemleyip ölçüm ve sonuçları düzenli kaydetmek.",
+              "persona": "Deneysever"
+            },
+            {
+              "text": "Net görev tanımlarının ve hiyerarşinin olduğu bir düzende çalışmak (üniforma/disiplin).",
+              "persona": "Koruyucu"
+            }
+          ]
+        },
+        {
+          "id": "block_12",
+          "title": "BLOK 12",
+          "options": [
+            {
+              "text": "Teknolojik aletleri kurmak, parçaları birleştirmek ve işlevsel hale getirmek.",
+              "persona": "Sorunçözer"
+            },
+            {
+              "text": "Birinin potansiyelini keşfetmesine mentorluk yaparak destek olmak.",
+              "persona": "Rehber"
+            },
+            {
+              "text": "Karar verirken duygudan çok yasa, kural ve mantıksal veriye dayanmak.",
+              "persona": "Taktisyen"
+            },
+            {
+              "text": "Evrak/veri/dosyaların düzenli ve hatasız olmasını sağlamak.",
+              "persona": "Düzenperest"
+            }
+          ]
+        }
+      ],
+      "scoringRules": {
+        "rank1": 3,
+        "rank2": 2,
+        "rank3": 1,
+        "rank4": 0,
+        "maxRawScore": 12,
+        "normalizedScale": 100
+      }
+    },
+    "values": {
+      "title": "Değerler Testi",
+      "description": "Kariyer yolculuğunda seni nelerin motive ettiğini ve nasıl bir çalışma ortamında mutlu olacağını keşfetmeye hazır mısın? Bu bölümde, sana sunulan ifadelerin senin için ne kadar önemli olduğunu samimiyetle değerlendirmeni istiyoruz. Lütfen cevaplarını verirken mevcut koşullarını değil, hayalindeki ideal iş ortamını düşünerek puanlama yap.",
+      "questions": [
+        {
+          "id": "values_1",
+          "text": "İşimin, hayal gücümü kullanarak yeni fikirler üretmeme ve özgün bir çıktı ortaya koymama alan açması benim için çok önemlidir.",
+          "weights": {
+            "Vizyoner Yaratıcı": 2,
+            "Sorunçözer": 1,
+            "Taktisyen": -1
+          }
+        },
+        {
+          "id": "values_2",
+          "text": "Çalışırken kendi yöntemimi seçebilmek, inisiyatif almak ve bağımsız hareket edebilmek benim için önceliklidir.",
+          "weights": {
+            "Vizyoner Yaratıcı": 2,
+            "Araştırmacı": 1,
+            "Koruyucu": -1
+          }
+        },
+        {
+          "id": "values_3",
+          "text": "Doğayla, toprakla veya canlılarla doğrudan temas kurabileceğim bir çalışma ortamı benim için önemlidir.",
+          "weights": {
+            "Doğal Aktivist": 2,
+            "Deneysever": -1
+          }
+        },
+        {
+          "id": "values_4",
+          "text": "Yaptığım işin sürdürülebilirliğe ve çevresel sorumluluğa katkı sağlaması benim için önceliklidir.",
+          "weights": {
+            "Doğal Aktivist": 2,
+            "Vizyoner Yaratıcı": 1,
+            "Ticari Zeka": -1
+          }
+        },
+        {
+          "id": "values_5",
+          "text": "İnsanların sağlık ve iyilik halini doğrudan iyileştirmeye katkı sağlayacağım bir rolde olmak benim için anlamlıdır.",
+          "weights": {
+            "İyilik Elçisi": 2,
+            "Koruyucu": 1
+          }
+        },
+        {
+          "id": "values_6",
+          "text": "Zor durumda olan bireylere destek olmak ve onların iyi oluşuna katkı sunmak benim için güçlü bir motivasyondur.",
+          "weights": {
+            "İyilik Elçisi": 2,
+            "Rehber": 1,
+            "Ticari Zeka": -1
+          }
+        },
+        {
+          "id": "values_7",
+          "text": "İnsanlarla sürekli etkileşim içinde olduğum, sosyal enerjisi yüksek bir çalışma ortamı bana uygundur.",
+          "weights": {
+            "Neşe Kaynağı": 2,
+            "Ticari Zeka": 1,
+            "Rehber": 1,
+            "Araştırmacı": -1
+          }
+        },
+        {
+          "id": "values_8",
+          "text": "İşimde görünür olmak, etki yaratmak, insanları olumlu duygularla buluşturmak (sunum, sahne, deneyim) benim için önemlidir.",
+          "weights": {
+            "Neşe Kaynağı": 2,
+            "Ticari Zeka": 1,
+            "Deneysever": -1
+          }
+        },
+        {
+          "id": "values_9",
+          "text": "Karar verirken sezgiden çok veriye, kanıta ve ölçüme dayanmak benim için daha doğrudur.",
+          "weights": {
+            "Deneysever": 2,
+            "Araştırmacı": 1
+          }
+        },
+        {
+          "id": "values_10",
+          "text": "Detay ve doğruluk gerektiren işlerde, standartlara ve protokollere uyarak hatayı en aza indirmek benim çalışma tarzıma uygundur.",
+          "weights": {
+            "Deneysever": 2,
+            "Düzenperest": 1,
+            "Vizyoner Yaratıcı": -1
+          }
+        },
+        {
+          "id": "values_11",
+          "text": "Kriz, risk veya tehlike içeren durumlarda sorumluluk alıp güvenliği sağlamak benim için anlamlı bir görevdir.",
+          "weights": {
+            "Koruyucu": 2,
+            "Araştırmacı": -1
+          }
+        },
+        {
+          "id": "values_12",
+          "text": "Kuralların net olduğu, düzenin ve sorumluluk sınırlarının belirgin olduğu istikrarlı bir yapıda çalışmak bana güven verir.",
+          "weights": {
+            "Koruyucu": 2,
+            "Taktisyen": 1,
+            "Vizyoner Yaratıcı": -1
+          }
+        },
+        {
+          "id": "values_13",
+          "text": "Birine bir şey öğretmek ve onun geliştiğini görmek benim için önemli bir başarı göstergesidir.",
+          "weights": {
+            "Rehber": 2,
+            "İyilik Elçisi": 1,
+            "Sorunçözer": -1
+          }
+        },
+        {
+          "id": "values_14",
+          "text": "İnsanlara yol gösterebileceğim, mentorluk yapabileceğim ve gelişimlerine eşlik edebileceğim roller bana uygundur.",
+          "weights": {
+            "Rehber": 2,
+            "İyilik Elçisi": 1,
+            "Sorunçözer": -1
+          }
+        },
+        {
+          "id": "values_15",
+          "text": "Karışık işleri planlayıp düzenli bir sisteme dönüştürmekten keyif alırım.",
+          "weights": {
+            "Düzenperest": 2,
+            "Doğal Aktivist": 1,
+            "Neşe Kaynağı": -1
+          }
+        },
+        {
+          "id": "values_16",
+          "text": "Süreçlerin zamanında ve eksiksiz ilerlemesini sağlamak, işin sorunsuz akmasını yönetmek beni tatmin eder.",
+          "weights": {
+            "Düzenperest": 2,
+            "Doğal Aktivist": 1
+          }
+        },
+        {
+          "id": "values_17",
+          "text": "Derinlemesine öğrenme, okumaya ve araştırmaya zaman ayırma, bir konuda uzmanlaşma benim için önemlidir.",
+          "weights": {
+            "Araştırmacı": 2,
+            "Deneysever": 1,
+            "Ticari Zeka": -1
+          }
+        },
+        {
+          "id": "values_18",
+          "text": "Zihinsel olarak zorlayıcı problemleri analiz ederek çözmek ve mantıksal sonuçlar üretmek beni motive eder.",
+          "weights": {
+            "Araştırmacı": 2,
+            "Sorunçözer": 1,
+            "Doğal Aktivist": -1
+          }
+        },
+        {
+          "id": "values_19",
+          "text": "Hedeflerin olduğu rekabetçi ortamlarda ölçülebilir başarı ve finansal sonuç üretmek benim için güçlü bir motivasyondur.",
+          "weights": {
+            "Ticari Zeka": 2,
+            "İyilik Elçisi": -1
+          }
+        },
+        {
+          "id": "values_20",
+          "text": "İkna ve ilişki yönetimiyle ticari sonuç (satış, anlaşma, büyüme) elde etmek benim için anlamlıdır.",
+          "weights": {
+            "Ticari Zeka": 2,
+            "Neşe Kaynağı": 1,
+            "Araştırmacı": -1
+          }
+        },
+        {
+          "id": "values_21",
+          "text": "Somut bir problemi ele alıp çalışır bir çözüme dönüştürmek, elle tutulur çıktı üretmek benim için daha tatmin edicidir.",
+          "weights": {
+            "Sorunçözer": 2,
+            "Vizyoner Yaratıcı": 1,
+            "İyilik Elçisi": -1
+          }
+        },
+        {
+          "id": "values_22",
+          "text": "Bir sistemin nasıl çalıştığını anlamak, arıza veya aksaklıkları gidererek yeniden çalışır hale getirmek beni motive eder.",
+          "weights": {
+            "Sorunçözer": 2,
+            "Deneysever": 1,
+            "İyilik Elçisi": -1
+          }
+        },
+        {
+          "id": "values_23",
+          "text": "Kurallar, mevzuat, sözleşmeler ve mantıksal gerekçelerle stratejik kararların alındığı 'ciddi sorumluluk' rollerini tercih ederim.",
+          "weights": {
+            "Taktisyen": 2,
+            "Düzenperest": 1
+          }
+        },
+        {
+          "id": "values_24",
+          "text": "Riskleri önceden görüp analiz ederek uzun vadeli koruyucu strateji geliştirmek benim için önemlidir.",
+          "weights": {
+            "Taktisyen": 2,
+            "Koruyucu": 1,
+            "Neşe Kaynağı": -1
+          }
+        }
+      ],
+      "qualityThresholds": {
+        "veryLow": {
+          "min": 20,
+          "max": 24,
+          "label": "Very Low Quality",
+          "weightMultiplier": 0.20
+        },
+        "low": {
+          "min": 16,
+          "max": 19,
+          "label": "Low Quality",
+          "weightMultiplier": 0.40
+        },
+        "medium": {
+          "min": 12,
+          "max": 15,
+          "label": "Medium Quality",
+          "weightMultiplier": 0.70
+        },
+        "good": {
+          "min": 0,
+          "max": 11,
+          "label": "Good Quality",
+          "weightMultiplier": 1.0
+        }
+      }
+    }
+  },
+  "defaultWeights": {
+    "interests": 0.40,
+    "values": 0.35,
+    "skills": 0.25
+  }
+}
