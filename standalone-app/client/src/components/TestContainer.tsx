@@ -67,6 +67,15 @@ export default function TestContainer({ user, onLogout }: TestContainerProps) {
         }
     };
 
+    const handleReset = () => {
+        setSkillsAnswers({});
+        setInterestsAnswers({});
+        setValuesAnswers({});
+        setTestResults(null);
+        setCurrentStep('skills');
+        setSaveError('');
+    };
+
     const getStepNumber = (step: TestStep): number => {
         const steps: TestStep[] = ['skills', 'interests', 'values', 'results'];
         return steps.indexOf(step) + 1;
@@ -210,7 +219,7 @@ export default function TestContainer({ user, onLogout }: TestContainerProps) {
                                 <p className="text-yellow-800 text-sm">{saveError}</p>
                             </div>
                         )}
-                        <ResultsDisplay results={testResults} />
+                        <ResultsDisplay results={testResults} onReset={handleReset} />
                         <div className="mt-8 text-center">
                             <button
                                 onClick={onLogout}

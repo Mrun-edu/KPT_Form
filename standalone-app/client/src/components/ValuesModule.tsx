@@ -1,5 +1,4 @@
-```
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { AlertTriangle } from 'lucide-react';
 import testData from '../data/testData.json';
 
@@ -98,11 +97,10 @@ export default function ValuesModule({ answers, onAnswerChange }: ValuesModulePr
         {questions.map((question, index) => (
           <div
             key={question.id}
-            className={`p - 4 sm: p - 6 rounded - xl border - 2 transition - all duration - 75 ${
-  answers[question.id]
-  ? 'border-purple-300 bg-purple-50'
-  : 'border-gray-200 bg-white hover:border-gray-300'
-} `}
+            className={`p-4 sm:p-6 rounded-xl border-2 transition-all duration-75 ${answers[question.id]
+              ? 'border-purple-300 bg-purple-50'
+              : 'border-gray-200 bg-white hover:border-gray-300'
+              }`}
           >
             {/* Question Number and Text */}
             <div className="mb-4">
@@ -127,9 +125,8 @@ export default function ValuesModule({ answers, onAnswerChange }: ValuesModulePr
                 {[1, 2, 3, 4, 5].map((value) => (
                   <label
                     key={value}
-                    className={`cursor - pointer ${
-  answers[question.id] === value ? 'scale-105 z-10' : ''
-} `}
+                    className={`cursor-pointer ${answers[question.id] === value ? 'scale-105 z-10' : ''
+                      }`}
                   >
                     <input
                       type="radio"
@@ -140,11 +137,10 @@ export default function ValuesModule({ answers, onAnswerChange }: ValuesModulePr
                       className="sr-only"
                     />
                     <div
-                      className={`p - 2 sm: p - 3 text - center rounded - lg border - 2 transition - all duration - 75 ${
-  answers[question.id] === value
-  ? 'border-purple-500 bg-purple-500 text-white shadow-lg'
-  : 'border-gray-300 bg-white text-gray-700 hover:border-purple-300 hover:bg-purple-50'
-} `}
+                      className={`p-2 sm:p-3 text-center rounded-lg border-2 transition-all duration-75 ${answers[question.id] === value
+                        ? 'border-purple-500 bg-purple-500 text-white shadow-lg'
+                        : 'border-gray-300 bg-white text-gray-700 hover:border-purple-300 hover:bg-purple-50'
+                        }`}
                     >
                       <div className="text-lg sm:text-2xl font-bold mb-0.5 sm:mb-1">{value}</div>
                       {/* Short label on mobile, full label on desktop */}
@@ -183,7 +179,7 @@ export default function ValuesModule({ answers, onAnswerChange }: ValuesModulePr
               <div
                 className="bg-purple-500 h-2 rounded-full transition-all"
                 style={{
-                  width: `${ (Object.keys(answers).length / questions.length) * 100 }% `,
+                  width: `${(Object.keys(answers).length / questions.length) * 100}%`,
                 }}
               />
             </div>
