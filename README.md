@@ -36,7 +36,7 @@ npm install
 ```env
 MONGODB_URI=mongodb://localhost:27017/kariyer-persona-test
 PORT=3001
-CLIENT_URL=http://localhost:5173
+CLIENT_URL=http://localhost:5174
 ```
 
 ### 3. Frontend Kurulumu
