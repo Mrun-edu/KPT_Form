@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
-import testData from '../../../careerPersonaTestData.json';
+import testData from '../data/testData.json';
 
 interface InterestsModuleProps {
   answers: {
@@ -140,7 +140,7 @@ export default function InterestsModule({ answers, onAnswerChange }: InterestsMo
   }, []);
 
   // State for each block: poolItems and slotItems
-  const [blockStates, setBlockStates] = useState<{ [blockId: string]: BlockState }>(() => {
+  const [blockStates, setBlockStates] = useState < { [blockId: string]: BlockState } > (() => {
     const states: { [blockId: string]: BlockState } = {};
 
     initializedBlocks.forEach(block => {
@@ -174,12 +174,12 @@ export default function InterestsModule({ answers, onAnswerChange }: InterestsMo
         const blockAnswers = answers[block.id] || {};
         const currentState = prevStates[block.id];
 
-        const currentRankings = new Map<string, number>();
+        const currentRankings = new Map < string, number> ();
         currentState.slotItems.forEach((item, idx) => {
           if (item) currentRankings.set(item.persona, idx + 1);
         });
 
-        const answerRankings = new Map<string, number>(
+        const answerRankings = new Map < string, number> (
           Object.entries(blockAnswers).map(([persona, rank]) => [persona, rank as number])
         );
 
